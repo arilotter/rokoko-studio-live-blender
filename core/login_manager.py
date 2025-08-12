@@ -1,4 +1,4 @@
-
+l
 import os
 import bpy
 import ssl
@@ -92,6 +92,7 @@ class User:
         self.unregister_classes()
 
     def quit(self):
+        pass
 
     def error(self, *msg):
         # Update the UI if the user is still logging in or of the error message changes
